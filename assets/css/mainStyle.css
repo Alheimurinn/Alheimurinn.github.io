@@ -21,11 +21,9 @@ time, mark, audio, video {
 body{
     background-color: black;
     background-size: cover;
-    background-image: url("night_city.jpg");
+    background-image: url("../../night_city.jpg");
     }
 .content{
-    display: block;
-    position: fixed;
     color: white;
     font-family:  'Bungee Shade';
     margin-top: 8cm;
@@ -44,5 +42,16 @@ body{
     position: fixed;
     top: 50%;
     left: 50%;
+    z-index: 10;
+}
+label{
+    position: fixed;
+    font-size: 170%;
+    margin-left: 700px;
+    margin-top: -6cm;
+    top: 50%;
+    left: 3%;
+    color: white;
+    font-family:  'Bungee Shade';
     z-index: 10;
 }
